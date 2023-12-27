@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.Prueba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+.restringed {
+    padding: 1%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    text-align: center;
+    border: 0.1vh solid rgb(205, 205, 205);
+    display:table;
+    margin: 0 auto;
+}
+
+.restringed input{
+    margin: 1%;
+}

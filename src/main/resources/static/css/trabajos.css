@@ -1,0 +1,298 @@
+html {
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(public/woods.jpg);
+    backdrop-filter: blur(0.3vh);
+}
+
+body {
+    margin: 0;
+}
+
+.headerTop a {
+    border-bottom: solid 0.1vh rgb(107, 107, 107);
+    text-decoration: none;
+    height: 7.5vh;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(33, 85, 255, 0.5);
+}
+
+.headerTop h1 {
+    text-shadow: 0vh 0vh 0.4vh black;
+    color: rgb(255, 255, 255);
+    outline: none;
+    text-align: center;
+    font-size: 2.5vh;
+}
+
+.headerTop span {
+    text-shadow: 0vh 0vh 0.4vh black;
+    color: rgb(255, 255, 255);
+    outline: none;
+    text-align: center;
+    font-size: 1.3vh;
+    position: relative;
+    top: 3.2vh;
+    left: 1vh;
+}
+
+.info {
+    padding: 1%;
+    text-shadow: 0vh 0vh 0.3vh white;
+    color: rgb(2, 2, 2);
+    border: 0.1vh solid black;
+    margin: 1%;
+    display:table;
+    background-color: rgba(43, 33, 0, 0.3);
+}
+.info h2{
+    border-bottom: 0.1vh solid rgba(255, 255, 255, 0.5);
+    font-size: 250%;
+}
+.info p{
+    font-size: 150%;
+    border-bottom: 0.1vh solid rgba(255, 255, 255, 0.5);
+}
+
+.comentarios {
+    margin: 1%;
+    border: 0.1vh solid black;
+    user-select: none;
+    color: rgb(255, 255, 255);
+    overflow: scroll;
+    display: flex;
+    width: 97%;
+    height: 70%;
+    background-color: rgba(43, 33, 0, 0.3);
+}
+
+.comentarios h2{
+position: absolute;
+margin-bottom: 1%
+}
+
+.comentarios p {
+    margin-top: 6%;
+    font-size: 2vh;
+}
+
+.mesaDeTrabajo{
+    color: rgb(237, 237, 237);
+    border: 0.1vh solid black;
+    display: table;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 70%;
+    height: 85%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.responder{
+    color: white;
+    resize: none;
+    font-size: 2.2vh;
+    position: absolute;
+    top: 75%;
+    background-color: rgba(43, 33, 0, 0.3);
+    margin: 1%;
+    border: 0.1vh solid black;
+    width: 80%;
+    height: 20%;
+}
+
+.enviar{
+    background-color: rgba(26, 110, 0, 0.1);
+    cursor: pointer;
+    user-select: none;
+    border: 0.3vh solid black;
+    border-radius: 15%;
+    padding: 0.5%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 90%;
+    left: 85%;
+    width: 10%;
+    height: 5%;
+    transition: background-color 0.2s;
+}
+
+.enviar p {
+    color: rgb(237, 237, 237);
+    font-size: 2vh;
+    margin: 0 auto;
+}
+
+.enviar:hover{
+    backdrop-filter: blur(0.1vh);
+}
+.enviar:active{
+    background-color: rgba(26, 110, 0, 0.4);
+}
+
+.verImg{
+    cursor: pointer;
+    user-select: none;
+    border: 0.3vh solid black;
+    border-radius: 15%;
+    padding: 0.5%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 80%;
+    left: 85%;
+    width: 10%;
+    height: 5%;
+    transition: background-color 0.2s;
+}
+
+.verImg p {
+    color: rgb(237, 237, 237);
+    font-size: 2vh;
+    margin: 0 auto;
+}
+
+
+.verImg:hover{
+    backdrop-filter: blur(0.1vh);
+}
+.verImg:active{
+    background-color: rgba(122, 0, 179, 0.3);
+}
+
+.entregar{
+    background-color: rgba(26, 110, 0, 0.1);
+    cursor: pointer;
+    user-select: none;
+    border: 0.3vh solid black;
+    border-radius: 15%;
+    padding: 0.5%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 90%;
+    left: 85%;
+    width: 10%;
+    height: 5%;
+    transition: background-color 0.2s;
+}
+
+.entregar p {
+    color: rgb(237, 237, 237);
+    font-size: 2vh;
+    margin: 0 auto;
+}
+
+.entregar:hover{
+    backdrop-filter: blur(0.1vh);
+}
+.entregar:active{
+    background-color: rgba(26, 110, 0, 0.4);
+}
+
+.postergar{
+    background-color: rgba(0, 132, 255, 0.1);
+    cursor: pointer;
+    user-select: none;
+    border: 0.3vh solid black;
+    border-radius: 15%;
+    padding: 0.5%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 80%;
+    left: 85%;
+    width: 10%;
+    height: 5%;
+    transition: background-color 0.2s;
+}
+
+.postergar p {
+    color: rgb(237, 237, 237);
+    font-size: 1.5vh;
+    margin: 0 auto;
+}
+
+
+.postergar:hover{
+    backdrop-filter: blur(0.1vh);
+}
+.postergar:active{
+    background-color: rgba(255, 0, 0, 0.4);
+}
+
+
+/*responsive*/
+@media(max-width:768px){
+    .comentarios {
+        width: 100%;
+        }
+        .mesaDeTrabajo{
+            left: 20%;
+            width: 15%;
+            height: 35%;
+            margin: 1%;
+        }
+        .mesaDeTrabajo h1{
+            text-align: center;
+        }
+    }
+
+    @media(max-width:1570px){
+        
+            .mesaDeTrabajo{
+                left: 30%;
+                width: 68%;
+            }
+            .mesaDeTrabajo h1{
+                text-align: center;
+            }
+        }
+
+        @media(max-width:1250px){
+        
+            .mesaDeTrabajo{
+                left: 40%;
+                width: 58%;
+            }
+            .mesaDeTrabajo h1{
+                text-align: center;
+            }
+        }
+
+        @media(max-width:920px){
+        
+            .mesaDeTrabajo{
+                left: 50%;
+                width: 48%;
+                height: 60%;
+            }
+            .mesaDeTrabajo h1{
+                text-align: center;
+            }
+        }
+        
+        @media(max-width:702px){
+            
+            .info {
+                width: 1vh;
+            }
+
+            .mesaDeTrabajo{
+                left: 50.9%;
+                width: 48%;
+                height: 75%;
+            }
+            .mesaDeTrabajo h1{
+                text-align: center;
+            }
+        }
+
+

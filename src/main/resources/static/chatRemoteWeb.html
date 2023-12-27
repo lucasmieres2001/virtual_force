@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,200;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/remoteChat.css">
+    <title>VirtualForce - Chat</title>
+</head>
+<body>
+<!-- cuerpo -->
+<section>
+    <div class="headerTop">
+       <img alt="Virtual Force" onclick='window.location.href="store.html"' src="css/public/logo.png"/>
+        <h1 onclick='window.location.href="store.html"'>Virtual Force</h1> 
+        <p><span title="Sesión activa" id="email"></span><span style="color: rgb(255, 255, 0); text-shadow: 0vh 0vh 0.6vh black;" onclick='cerrarSesion()'>Cerrar Sesión</span></p>
+    </div>
+    
+    <article>
+        <div class="post">
+            <h2>Crea tu Página web</h2>
+        <div class="formContainer">
+            <form>
+                <label for="categoria">¡Dinos cual es tu idea!</label><br>
+                <textarea placeholder="¡Describenos tu página web!" id="categoria"></textarea>
+                <label for="upload" class="files">Subir Imágen
+                </label><span class="opcional"></span><br>
+                <input type="file" id="upload"/>
+                <input class="boton" onclick='enviarMensaje()' type="button" value="Enviar"/><br>
+            </form>
+        </div>
+            <p>Una vez enviado el mensaje, nuestros operadores se estarán contactando con ustéd para más detalles durante las próximas 48 horas hábiles.</p>
+        </div>
+</article>
+</section>
+<footer>
+    <p>2023-2024 © todos los derechos reservados por virtualforces.net </p>
+    <p><a href="mailto:virtualforceserv@gmail.com">Contáctanos</a> - <a href="acercaDeNosotros.html">Acerca de nosotros</a></p>
+   </footer>
+</body>
+<script src="jQueryStatic/jQuery/tmp/jquery.js"></script>
+<!--lógica-->
+<script src="js/chatRemoteWeb.js"></script>
+</html>

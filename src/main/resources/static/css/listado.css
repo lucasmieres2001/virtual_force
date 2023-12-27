@@ -1,0 +1,167 @@
+html {
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-image: url(public/woods.jpg);
+    backdrop-filter: blur(0.4vh);
+    min-height: 100vh;
+}
+
+.headerTop a {
+    text-decoration: none;
+    height: 7.5vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(33, 85, 255, 0.5);
+}
+
+.headerTop h1 {
+    color: rgb(255, 255, 255);
+    outline: none;
+    text-align: center;
+    font-size: 2.5vh;
+}
+
+.headerTop span {
+    color: rgb(255, 255, 255);
+    outline: none;
+    text-align: center;
+    font-size: 1.3vh;
+    position: relative;
+    top: 3.2vh;
+    left: 1vh;
+}
+
+.opciones {
+    border-radius: 5vh;
+    display: flex;
+    margin: 7vh auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 75vh;
+    width: 70%;
+    box-shadow: 0vh 0vh 0.3vh rgb(255, 255, 255);
+}
+
+.opciones h1 {
+    text-shadow: 0vh 0vh 0.3vh black;
+    font-size: 4vh;
+    user-select: none;
+    position: absolute;
+    left: 42%;
+    bottom: 70vh;
+
+}
+
+button {
+text-shadow: 0vh 0vh 0.5vh rgb(0, 0, 0);
+font-size: 2.5vh;
+padding: 1vh;
+color: rgb(255, 255, 255);
+background-color: rgb(38, 38, 38);
+border-color: rgb(255, 255, 255);
+border-style: none;
+border-style: solid;
+border-radius: 1vh;
+margin:1vh;
+border-width: 0.1vh;
+position:relative;
+right: 2vh;
+display:flex;
+justify-content:center;
+transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: rgb(9, 9, 9);
+}
+
+.headerLeft {
+    margin: 1vh;
+    width: 36vh;
+    height: 75vh ;
+    background-color: rgb(38, 38, 38);
+    position: relative;
+    bottom: 82vh;
+    box-shadow: 0vh 0vh 0.3vh rgb(255, 255, 255);
+    
+}
+
+.headerLeft h1 {
+    color: rgb(75, 112, 234);
+    text-shadow: 0vh 0vh 0.3vh black;
+    font-size: 13vh;
+    user-select: none;
+    position: absolute;
+    right: 3vh;
+    bottom: 25vh;
+
+}
+
+.headerLeft h2 {
+    color: rgb(255, 252, 186);
+    text-shadow: 0vh 0vh 0.3vh black;
+    font-size: 2.5vh;
+    user-select: none;
+    position: absolute;
+    left: 2vh;
+    bottom: 30vh;
+
+}
+
+table {
+    font-size: 2.5vh;
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+  }
+
+  table, th, td {
+    border: 0.1vh solid #ddd;
+  }
+
+  th, td {
+    padding: 0.1vh;
+    text-align: left;
+  }
+
+  .tabla {
+    border-radius: 1vh;
+    height: 65%;
+    width: 90%;
+    overflow: auto;
+  }
+
+  .botonVerde {
+    cursor: pointer;
+    border: 0.01px solid white;
+    box-shadow: 0vh 0vh 1vh rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: 1vh auto ;
+    width: 2vh;
+    height: 2vh;
+    background-color: rgb(146, 0, 0);
+    transition: background-color 0.3s;
+  }
+
+  .botonVerde:hover{
+    background-color: rgb(18, 94, 3);
+  }
+
+  @media(max-width: 768px){
+    .opciones h1{
+        left: 30%;
+        font-size: 3vh;
+    }
+    table {
+        font-size: 1.5vh;
+        border-collapse: collapse;
+        width: 70%;
+        margin: auto;
+      }
+  }

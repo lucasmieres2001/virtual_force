@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/admin.css"/>
+    <title>VirtualForce - Admin validate</title>
+</head>
+<body>
+    <div class="Prueba">
+    <div class="restringed">
+        <h2>Crea tu validación</h2>
+        <form>
+            <label for="usuario">Nombre de usuario</label><br>
+            <input autocomplete="off" id="usuario" type="text" placeholder="Usuario"/><br>
+            <label for="usuariodos">Confirmar nombre de usuario</label><br>
+            <input autocomplete="off" id="usuariodos" type="text" placeholder="Confirmar nombre de usuario"/><br>
+            <hr/>
+            <label for="pass">Código de acceso</label><br>
+            <input id="pass" type="password" placeholder="CDA"/><br>
+            <label for="passdos">Confirmar código de acceso</label><br>
+            <input id="passdos" type="password" placeholder="Confirmar CDA"/><br>
+            <input id="restricted" type="password"/><br>
+            <input onclick='comprobar()' type="button" value="Validar acceso"/>
+        </form>
+    </div>
+</div>
+</body>
+<!--Carpeta jQuery-->
+<script src="jQueryStatic/jQuery/tmp/jquery.js"></script>
+<!--lógica-->
+<script src="js/adminRegister.js"></script>
+</html>

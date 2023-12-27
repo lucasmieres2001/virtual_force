@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,200;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/store.css">
+    <title>VirtualForce - Store</title>
+</head>
+<body>
+<!-- cuerpo -->
+<section>
+    <div class="headerTop">
+       <img alt="Virtual Force" onclick='window.location.href="store.html"' src="css/public/logo.png"/>
+        <h1 onclick='window.location.href="store.html"'>Virtual Force</h1> 
+        <p><span title="Sesión activa" id="sesion"></span><span id="not"></span><span style="color: rgb(255, 255, 0); text-shadow: 0vh 0vh 0.6vh black;" onclick='cerrarSesion()' id="cerrar">Cerrar Sesión</span></p>
+    </div>
+    <div class="welcome">
+        <h2>Te brindamos soporte técnico remoto experto las 24 horas</h2>
+    </div>
+    <div id="uno" class="post" onclick="confirmImp()">
+        <h2>Reparación de impresoras</h2>
+        <img  src="css/public/impresora.png"/>
+        <p>Desde problemas de conectividad hasta configuraciones y mantenimiento, estamos aquí para garantizar un rendimiento óptimo de tus impresoras, todo desde la comodidad de tu ubicación.</p>
+    </div>
+    <div id="dos" class="post" onclick="confirmWeb()">
+        <h2>Desarrollo Web</h2>
+        <img src="css/public/web.png"/>
+        <p>Haz que tu empresa o emprendimiento llegue a todas partes del mundo con una presencia digital atractiva y funcional. Eleva tu marca manejando tu propia página web.</p>
+    </div>
+    <div id="tres" class="post" onclick="confirmSoft()">
+        <h2>Instalación de software</h2>
+        <img src="css/public/instalacion.png"/>
+        <p>Descubre cómo podemos facilitar y agilizar tus necesidades de instalación de software, todo de manera remota y conveniente.</p>
+    </div>
+   <footer>
+    <p>2023-2024 © todos los derechos reservados por virtualforces.net </p>
+    <p><a href="mailto:virtualforceserv@gmail.com">Contáctanos</a> - <a href="acercaDeNosotros.html">Acerca de nosotros</a></p>
+   </footer>
+</section>
+</body>
+<script src="jQueryStatic/jQuery/tmp/jquery.js"></script>
+<!--lógica-->
+<script src="js/store.js"></script>
+</html>

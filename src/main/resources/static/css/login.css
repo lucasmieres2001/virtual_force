@@ -1,0 +1,139 @@
+html {
+    color: rgb(0, 0, 0);
+    font-family: 'Karla', sans-serif;
+}
+
+
+
+body {
+    background-color: rgb(228, 228, 228);
+    backdrop-filter: blur(0.4vh);
+    min-height: 100vh;
+    margin: 0;
+}
+
+.headerTop {
+    display: flex;
+    width: max-content;
+    border-bottom: solid 0.1vh rgb(107, 107, 107);
+    text-decoration: none;
+    height: 7.5vh;
+    min-width: 100%;
+    background-color: rgba(33, 85, 255);
+}
+
+.headerTop img {
+    cursor: pointer;
+    max-height: 100% ;
+}
+
+.headerTop h1 {
+    cursor: pointer;
+    user-select: none;
+    text-shadow: 0vh 0vh 0.4vh black;
+    color: rgb(255, 255, 255);
+    outline: none;
+    font-size: 2.5vh;
+}
+
+.headerTop span {
+    cursor: pointer;
+    user-select: none;
+    text-shadow: 0vh 0vh 0.4vh black;
+    color: rgb(255, 255, 255);
+    outline: none;
+    font-size: 1.7vh;
+    margin-top: 2.7vh ;
+    margin-left: 1%;
+}
+
+.headerTop p {
+    display: flex;
+    margin-top: 0.05vh;
+    margin-left: auto;
+    margin-right: 1%;
+}
+.headerTop p span{
+    text-shadow: 0vh 0vh 0.5vh black;
+    color: rgb(255, 255, 255);
+}
+
+.post{
+    
+    margin: 5% auto;
+    padding: 0.5%;
+    width: 40%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    transition: background-color 0.3s;
+}
+.post h2{
+    font-size: 3vh;
+    user-select: none;
+    text-align: center;
+    border-bottom: 0.1vh solid rgb(207, 207, 207);
+}
+
+.post p{
+    color: rgb(0, 0, 0);
+    font-size: 2.3vh;
+    user-select: none;
+    text-align: center;
+    border-bottom: 0.1vh solid rgb(207, 207, 207);
+}
+.post p a{
+    text-decoration: none;
+    color: rgb(132, 79, 0);
+    
+}
+.formContainer{
+    width: 70%;
+    margin: 3% auto;
+    padding: 4%;
+    text-align: center;
+}
+
+.formContainer form label{
+    margin: 2%;
+    font-size: 185%;
+}
+
+.formContainer form input{
+    border: 0.1vh solid rgb(207, 207, 207);
+    border-radius: 5px;
+    margin: 2%;
+    font-size: 2.5vh;
+    max-width: 80%;
+}
+.boton {
+    text-align: center;
+    width: 90%;
+    background-color: rgb(0, 155, 155);
+    height: 6vh;
+}
+
+article{
+    padding-bottom: 18vh;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    width: 100%;
+    min-height: 17.9vh;
+    color: white;
+    background-color: black;
+}
+footer p{
+    
+    margin: 1%;
+}
+footer p a{
+    color: inherit;
+    text-decoration: none;
+}

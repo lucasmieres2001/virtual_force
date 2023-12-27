@@ -1,0 +1,298 @@
+html {
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+body {
+    background-image: url(public/woods.jpg);
+    backdrop-filter: blur(0.4vh);
+    min-height: 100vh;
+    margin: 0;
+}
+
+.headerTop a {
+    border-bottom: solid 0.1vh rgb(107, 107, 107);
+    text-decoration: none;
+    height: 7.5vh;
+    min-width: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(33, 85, 255, 0.5);
+}
+
+.headerTop h1 {
+    text-shadow: 0vh 0vh 0.4vh black;
+    color: rgb(255, 255, 255);
+    outline: none;
+    text-align: center;
+    font-size: 2.5vh;
+}
+
+.headerTop span {
+    text-shadow: 0vh 0vh 0.4vh black;
+    color: rgb(255, 255, 255);
+    outline: none;
+    text-align: center;
+    font-size: 1.3vh;
+    position: relative;
+    top: 3.2vh;
+    left: 1vh;
+}
+
+.opciones {
+    padding: 1%;
+    overflow: hidden;
+    border-radius: 5%;
+    margin: 6% auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 50vh;
+    width: 45%;
+    box-shadow: 0vh 0vh 0.3vh rgb(255, 255, 255);
+}
+
+.opciones h1 {
+    text-shadow: 0vh 0vh 0.3vh black;
+    font-size: 2vh;
+    user-select: none;
+}
+
+button {
+text-shadow: 0vh 0vh 0.5vh rgb(0, 0, 0);
+font-size: 2.5vh;
+padding: 1%;
+color: rgb(255, 255, 255);
+background-color: rgba(0, 0, 0, 0.5);
+border-color: rgb(255, 255, 255);
+border-style: none;
+border-style: solid;
+border-radius: 15%;
+margin:6%;
+border-width: 0.1vh;
+position:relative;
+left: 30%;
+display:flex;
+justify-content:center;
+transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: rgb(9, 9, 9);
+}
+
+.headerLeft {
+    margin: 1%;
+    width: 20%;
+    height: 75vh ;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 70vh;
+    box-shadow: 0vh 0vh 0.3vh rgb(255, 255, 255);
+    
+}
+
+.headerLeft h1 {
+    color: rgb(75, 112, 234);
+    text-shadow: 0vh 0vh 0.3vh black;
+    font-size: 10.5vh;
+    user-select: none;
+    position: absolute;
+    right: 16vh;
+    bottom: 45%;
+
+}
+
+.headerLeft h2 {
+    color: rgb(255, 252, 186);
+    text-shadow: 0vh 0vh 0.3vh black;
+    font-size: 2.5vh;
+    user-select: none;
+    position: absolute;
+    left: 10vh;
+    bottom: 45%;
+
+}
+
+.headerRight {
+    display: flex;
+    justify-content: center;
+    margin: 1vh;
+    width: 20%;
+    height: 75vh ;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 148vh;
+    left: 75%;
+    box-shadow: 0vh 0vh 0.3vh rgb(255, 255, 255);
+    
+}
+
+.headerRight h1 {
+    color: rgb(75, 112, 234);
+    text-shadow: 0vh 0vh 0.3vh black;
+    font-size: 4vh;
+    user-select: none;
+    position: absolute;
+    right: 4vh;
+    bottom: 60vh;
+
+}
+
+.img_container{
+    margin: 30%;
+    overflow: hidden;
+}
+
+
+
+.img_container a{
+    
+}
+
+.img_container img {
+    cursor: pointer;
+    max-height: 9vh;
+    max-width: 9vh;
+    margin: 4vh;
+
+}
+
+section{
+    max-height:95vh;
+}
+
+
+
+    @media(max-width:1556px){
+        .opciones{
+            height: 55vh;
+        }
+        .headerLeft h1{
+            right: 2vh;
+        }
+        }
+
+        @media(max-width:1370px){
+            .opciones{
+                height: 57vh;
+            }
+            .headerLeft h1{
+                right: 4vh;
+                font-size: 8vh;
+            }
+            .headerLeft h2{
+                font-size: 1.5vh;
+            }
+
+            .headerRight h1 {
+                font-size: 3vh;
+            }
+            .img_container a img{
+                width: 5vh;
+            }
+        }
+
+        @media(max-width:1250px){
+            .opciones{
+                height: 60vh;
+            }
+            .headerLeft h1{
+                right: 4vh;
+                font-size: 7vh;
+            }
+            .headerLeft h2{
+                font-size: 1.5vh;
+            }
+
+            .headerRight h1 {
+                font-size: 2vh;
+                right: 5vh;
+                bottom: 65vh;
+            }
+            .img_container a img{
+                width: 5vh;
+            }
+          
+        }
+
+        @media(max-width:1000px){
+            .opciones{
+                height: 60vh;
+            }
+            .headerLeft h1{
+                right: 4vh;
+                font-size: 5.5vh;
+            }
+            .headerLeft h2{
+                font-size: 1vh;
+            }
+
+            .headerRight h1 {
+                font-size: 1.5vh;
+                right: 5vh;
+                bottom: 65vh;
+            }
+            .img_container a img{
+                width: 3.5vh;
+            }
+        }
+        
+        @media(max-width:800px){
+            .opciones{
+                height: 68vh;
+                width: 35%;
+            }
+            .headerLeft h1{
+                right: 2.5vh;
+                font-size: 5vh;
+            }
+            .headerLeft h2{
+                font-size: 1vh;
+            }
+
+            .headerRight h1 {
+                font-size: 1vh;
+                right: 5vh;
+                bottom: 65vh;
+            }
+            .img_container a img{
+                width: 3vh;
+            }
+            button {
+                left: 5%;
+                font-size: 2vh;
+            }
+        }
+
+        @media(max-width:700px){
+            .opciones{
+                height: 65vh;
+                width: 35%;
+            }
+            .headerLeft h1{
+                right: 1.5vh;
+                font-size: 4vh;
+            }
+            .headerLeft h2{
+                font-size: 1vh;
+            }
+
+            .headerRight h1 {
+                font-size: 1vh;
+                right: 5vh;
+                bottom: 68vh;
+            }
+            .img_container a img{
+                width: 2vh;
+            }
+            button {
+                left: 5%;
+                font-size: 1.5vh;
+            }
+        }
+
+

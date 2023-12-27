@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(10, 10, 10);
+}
+
+.mensaje {
+    border-radius: 7%;
+    display: table;
+    text-align: center;
+    padding: 1.5%;
+    margin: 0 auto;
+    margin-top: 30vh;
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+    height: 50vh;
+}
+
+.mensaje label{
+    color: white;
+    font-size: 3vh;
+}
+
+.mensaje textarea {
+    background-color: rgb(241, 241, 241);
+    font-size: 2.5vh;
+    resize: none;
+    margin: 0.3%;
+    width: 97%;
+    height: 80%;
+}
+.mensaje input{
+    font-size: 1.5vh;
+    cursor: pointer;
+    height: 10%;
+    width: 40%;
+    background-color: rgb(0, 119, 255);
+    border-radius: 5%;
+    color: rgb(255, 255, 255);
+    border: none;
+    margin: 0 auto;
+}

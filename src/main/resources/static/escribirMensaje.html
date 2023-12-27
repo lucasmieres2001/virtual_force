@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/escribirMensaje.css"/>
+    <title>enviar mensaje</title>
+</head>
+<body>
+    <form class="mensaje">
+        <label for="texto"> Comunicate con tus clientes de manera totalmente directa</label>
+        <textarea onkeydown="play(event)" id="texto" placeholder="Una buena a atención al cliente ayuda a que los usuarios confien más en tus servicios ;)"></textarea><br>
+        <input value="Enviar mensaje" type="button" onclick="mensajeEnviado()"/>
+    </form>
+</body>
+<!--Carpeta jQuery-->
+<script src="jQueryStatic/jQuery/tmp/jquery.js"></script>
+<!--lógica-->
+<script src="js/escribirMensaje.js"></script>
+</html>

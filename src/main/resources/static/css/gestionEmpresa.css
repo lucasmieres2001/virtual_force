@@ -1,0 +1,91 @@
+html {
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+body {
+    background-image: url(public/woods.jpg);
+    backdrop-filter: blur(0.4vh);
+    min-height: 100vh;
+    margin: 0;
+}
+
+.headerTop a {
+    border-bottom: solid 0.1vh rgb(107, 107, 107);
+    text-decoration: none;
+    height: 7.5vh;
+    min-width: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(33, 85, 255, 0.5);
+}
+
+.headerTop h1 {
+    
+    text-shadow: 0vh 0vh 0.4vh black;
+    color: rgb(255, 255, 255);
+    outline: none;
+    text-align: center;
+    font-size: 2.5vh;
+}
+
+.headerTop span {
+    text-shadow: 0vh 0vh 0.4vh black;
+    color: rgb(255, 255, 255);
+    outline: none;
+    text-align: center;
+    font-size: 1.3vh;
+    position: relative;
+    top: 3.2vh;
+    left: 1vh;
+}
+
+.ganancias{
+    margin: 1%;
+    overflow: hidden;
+    width: 20%;
+    height: auto;
+    background-color: rgba(44, 33, 0, 0.3);
+}
+.ganancias h1{
+    user-select: none;
+    font-size: 125%;
+}
+
+.ganancias span{
+    text-shadow: 0vh 0vh 0.4vh rgb(184, 184, 184);
+    color: rgb(0, 106, 0);
+}
+
+.herramientas {
+    border-radius: 3%;
+    border: 0.2vh solid black;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: rgba(91, 91, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    width: 50%;
+    height: 50vh;
+    transition: background-color 0.9s;
+}
+
+.herramientas p {
+    cursor: pointer;
+    text-shadow: 0vh 0vh 3vh black;
+    font-size: 3vh;
+    transition: color 0.3s;
+}
+
+.herramientas:hover{
+    background-color: rgba(12, 11, 0, 0.3);
+}
+
+.herramientas p:hover{
+    color: rgb(255, 231, 144);
+}

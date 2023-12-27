@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,200;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
+    <title>VirtualForce - Iniciar sesión</title>
+</head>
+<body>
+<!-- cuerpo -->
+
+<section>
+    <article>
+    <div class="headerTop">
+       <img onclick='window.location.href="inicio.html"' src="css/public/logo.png"/>
+        <h1 onclick='window.location.href="inicio.html"'>Virtual Force</h1> <span onclick='window.location.href="inicio.html"'>Login</span> 
+    </div>
+    <div class="post">
+        <h2>Iniciar sesión</h2>
+    <div class="formContainer">
+        <form>
+            <label for="email">Email</label><br>
+            <input onkeydown="play(event)" autocomplete="off" type="tel" id="email"/><br>
+            <label  for="pass">Contraseña</label><br>
+            <input onkeydown="play(event)" autocomplete="off" type="password" id="pass"/><br>
+            <input class="boton" onclick='login()' type="button" value="Iniciar sesión"/><br>
+        </form>
+    </div>
+        <p>¿Aún no tiene una cuenta? <a href="register.html">Registrate</a></p>
+    </div>
+</article>
+</section>
+<footer>
+    <p>2023-2024 © todos los derechos reservados por virtualforces.net </p>
+    <p><a href="mailto:virtualforceserv@gmail.com">Contáctanos</a> - <a href="acercaDeNosotros.html">Acerca de nosotros</a></p>
+   </footer>
+</body>
+<script src="jQueryStatic/jQuery/tmp/jquery.js"></script>
+<!--lógica-->
+<script src="js/normalLogin.js"></script>
+</html>

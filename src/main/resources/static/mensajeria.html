@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,200;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/remoteChat.css">
+    <title>VirtualForce - Mensajeria</title>
+</head>
+<body>
+<!-- cuerpo --> 
+<section>
+    <div class="headerTop">
+       <img alt="Virtual Force" onclick='window.location.href="store.html"' src="css/public/logo.png"/>
+        <h1 onclick='window.location.href="store.html"'>Virtual Force</h1> 
+        <p><span title="Sesión activa" id="sesion"></span><span style="color: rgb(255, 255, 0); text-shadow: 0vh 0vh 0.6vh black;" onclick='cerrarSesion()'>Cerrar Sesión</span></p>
+    </div>
+    <article>
+        <div class="post">
+            <h2>Bandeja de entrada</h2>
+        <div class="formContainer">
+                <textarea disabled></textarea>
+                <input class="boton" onclick='eliminarBandejaDeEntrada()' type="button" value="Volver al inicio"/><br>
+        </div>
+        </div>
+</article>
+</section>
+<footer>
+    <p>2023-2024 © todos los derechos reservados por virtualforces.net </p>
+    <p><a href="mailto:virtualforceserv@gmail.com">Contáctanos</a> - <a href="acercaDeNosotros.html">Acerca de nosotros</a></p>
+   </footer>
+</body>
+<script src="jQueryStatic/jQuery/tmp/jquery.js"></script>
+<!--lógica-->
+<script src="js/mensajeria.js"></script>
+</html>

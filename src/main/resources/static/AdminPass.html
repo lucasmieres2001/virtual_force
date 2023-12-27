@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/admin.css"/>
+    <title>VirtualForce - Admin pass</title>
+</head>
+<body>
+    <div class="Prueba">
+    <div class="restringed">
+        <h2>Acceso ejecutivo</h2>
+        <form>
+            <label for="usuario">Nombre de usuario</label><br>
+            <input onkeydown="play(event)" autocomplete="off" id="usuario" type="text" placeholder="Usuario" /><br>
+            <label for="pass">Código de acceso</label><br>
+            <input onkeydown="play(event)" id="pass" type="password" placeholder="CDA"/><br>
+            <input onclick='comprobar()' type="button" value="Validar acceso"/>
+        </form>
+    </div>
+</div>
+</body>
+<!--Carpeta jQuery-->
+<script src="jQueryStatic/jQuery/tmp/jquery.js"></script>
+<!--lógica-->
+<script src="js/AdminPass.js"></script>
+</html>
